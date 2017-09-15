@@ -1,0 +1,3167 @@
+[
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "Data of approved building/construction permits",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 18681,
+      "parent_fxf": null,
+      "createdAt": "2013-04-05T18:11:45.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 7773946,
+        "page_views_total_log": 22.890215841254204,
+        "page_views_last_week_log": 9.594324603924848,
+        "page_views_last_week": 772,
+        "page_views_last_month_log": 11.062720767165045,
+        "page_views_last_month": 2138
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Approved Building Permits",
+      "attribution": "Inspectional Services Division",
+      "columns_name": [
+        "ZIP",
+        "STATUS",
+        "Property_ID",
+        "DECLARED_VALUATION",
+        "STATE",
+        "Location",
+        "PermitNumber",
+        "APPLICANT",
+        "OWNER",
+        "EXPIRATION_DATE",
+        "DESCRIPTION",
+        "ADDRESS",
+        "Sq_feet",
+        "WORKTYPE",
+        "TOTAL_FEES",
+        "CITY",
+        "ISSUED_DATE",
+        "Comments",
+        "Parcel_ID",
+        "OCCUPANCYTYPE",
+        "PermitTypeDescr"
+      ],
+      "columns_field_name": [
+        "zip",
+        "status",
+        "property_id",
+        "declared_valuation",
+        "state",
+        "location",
+        "permitnumber",
+        "applicant",
+        "owner",
+        "expiration_date",
+        "description",
+        "address",
+        "sq_feet",
+        "worktype",
+        "total_fees",
+        "city",
+        "issued_date",
+        "comments",
+        "parcel_id",
+        "occupancytype",
+        "permittypedescr"
+      ],
+      "id": "msk6-43c6",
+      "view_count": {
+        "page_views_total": 7773946,
+        "page_views_total_log": 22.890215841254204,
+        "page_views_last_week_log": 9.594324603924848,
+        "page_views_last_week": 772,
+        "page_views_last_month_log": 11.062720767165045,
+        "page_views_last_month": 2138
+      },
+      "updatedAt": "2017-07-21T10:01:47.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "money",
+        "text",
+        "location",
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "number",
+        "text",
+        "money",
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "housing & development",
+        "infrastructure"
+      ],
+      "tags": [],
+      "domain_category": "Permitting",
+      "domain_tags": [
+        "construction",
+        "building",
+        "permits"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Environmental & Energy Services",
+          "key": "Data-Owner_Owner"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.cityofboston.gov",
+      "license": "Creative Commons Attribution 3.0 Unported"
+    },
+    "permalink": "https://data.cityofboston.gov/d/msk6-43c6",
+    "link": "https://data.cityofboston.gov/Permitting/Approved-Building-Permits/msk6-43c6",
+    "owner": {
+      "id": "2pz3-cb5i",
+      "display_name": "Curt Savoie"
+    }
+  },
+  {
+    "resource": {
+      "name": "Lottery Cash 4 Life Winning Numbers: Beginning 2014",
+      "id": "kwxv-fwze",
+      "parent_fxf": null,
+      "description": "Go to http://on.ny.gov/1xRIvPz on the New York Lottery website for past Cash 4 Life results and payouts.",
+      "attribution": "New York State Gaming Commission",
+      "type": "dataset",
+      "updatedAt": "2017-09-15T11:21:59.000Z",
+      "createdAt": "2014-06-17T19:47:54.000Z",
+      "view_count": {
+        "page_views_last_week": 30724,
+        "page_views_last_month": 144391,
+        "page_views_total": 5049618,
+        "page_views_last_week_log": 14.907125390147387,
+        "page_views_last_month_log": 17.139631286744656,
+        "page_views_total_log": 22.267743108169483
+      },
+      "page_views": {
+        "page_views_last_week": 30724,
+        "page_views_last_month": 144391,
+        "page_views_total": 5049618,
+        "page_views_last_week_log": 14.907125390147387,
+        "page_views_last_month_log": 17.139631286744656,
+        "page_views_total_log": 22.267743108169483
+      },
+      "columns_name": [
+        "Cash Ball",
+        "Draw Date",
+        "Winning Numbers"
+      ],
+      "columns_field_name": [
+        "cash_ball",
+        "draw_date",
+        "winning_numbers"
+      ],
+      "columns_datatype": [
+        "text",
+        "calendar_date",
+        "text"
+      ],
+      "columns_description": [
+        "Cash ball",
+        "",
+        "Winning numbers"
+      ],
+      "download_count": 28080,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Government & Finance",
+      "domain_tags": [
+        "results",
+        "winning",
+        "new york lottery",
+        "cash 4 life"
+      ],
+      "domain_metadata": [
+        {
+          "value": "opendata@its.ny.gov",
+          "key": "Common-Core_Contact-Email"
+        },
+        {
+          "value": "Open Data NY",
+          "key": "Common-Core_Contact-Name"
+        },
+        {
+          "value": "State of New York",
+          "key": "Common-Core_Publisher"
+        },
+        {
+          "value": "http://www.gaming.ny.gov/",
+          "key": "Additional-Resources_See-Also"
+        },
+        {
+          "value": "New York State Gaming Commission",
+          "key": "Dataset-Summary_Dataset-Owner"
+        },
+        {
+          "value": "Info@gaming.ny.gov",
+          "key": "Dataset-Summary_Contact-Information"
+        },
+        {
+          "value": "By draw",
+          "key": "Dataset-Summary_Granularity"
+        },
+        {
+          "value": "Statewide",
+          "key": "Dataset-Summary_Coverage"
+        },
+        {
+          "value": "Twice weekly",
+          "key": "Dataset-Summary_Data-Frequency"
+        },
+        {
+          "value": "Twice weekly",
+          "key": "Dataset-Summary_Posting-Frequency"
+        },
+        {
+          "value": "The New York Lottery",
+          "key": "Dataset-Summary_Organization"
+        },
+        {
+          "value": "Beginning 6/16/2014",
+          "key": "Dataset-Summary_Time-Period"
+        },
+        {
+          "value": "Gaming Commission, New York State",
+          "key": "Dataset-Information_Agency"
+        },
+        {
+          "value": "The information contained on these pages is believed to be accurate. In the event of a discrepancy between the information displayed on this Web site concerning winning numbers and payouts and the information contained in the official and certified files maintained by the New York Lottery's Drawing Unit, those maintained by the Drawing Unit shall prevail.",
+          "key": "Notes_Notes"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.ny.gov"
+    },
+    "permalink": "https://data.ny.gov/d/kwxv-fwze",
+    "link": "https://data.ny.gov/Government-Finance/Lottery-Cash-4-Life-Winning-Numbers-Beginning-2014/kwxv-fwze",
+    "owner": {
+      "id": "xzik-pf59",
+      "display_name": "NY Open Data"
+    }
+  },
+  {
+    "resource": {
+      "description": "Calls for Service by computer aided dispatch (CAD) event type, date, time, location, statistical reporting area (SRA), and beat.",
+      "type": "dataset",
+      "download_count": 223,
+      "parent_fxf": null,
+      "createdAt": "2015-05-04T15:33:31.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 3670596,
+        "page_views_total_log": 21.80758329694142,
+        "page_views_last_week": 2,
+        "page_views_last_week_log": 1.5849625007211563,
+        "page_views_last_month_log": 3.5849625007211565,
+        "page_views_last_month": 11
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Howard County Police Department Call For Service - 2014-2016",
+      "attribution": null,
+      "columns_name": [
+        "Date_Reported",
+        "Location",
+        "Time_Reported",
+        "Beat",
+        "Statistical_Reporting_Area",
+        "Computer_Aided_Dispatch_Event_Type"
+      ],
+      "id": "qccx-65fg",
+      "columns_field_name": [
+        "date_reported",
+        "location",
+        "time_reported",
+        "beat",
+        "statistical_reporting_area",
+        "computer_aided_dispatch_event_type"
+      ],
+      "view_count": {
+        "page_views_total": 3670596,
+        "page_views_total_log": 21.80758329694142,
+        "page_views_last_week": 2,
+        "page_views_last_week_log": 1.5849625007211563,
+        "page_views_last_month_log": 3.5849625007211565,
+        "page_views_last_month": 11
+      },
+      "updatedAt": "2017-04-25T13:23:32.000Z",
+      "columns_datatype": [
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "dispatch",
+        "calls",
+        "beat",
+        "sra",
+        "cad"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Police Department",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Annually",
+          "key": "Additional-Metadata_Frequency"
+        },
+        {
+          "value": "2014-2016",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Howard County, MD",
+          "key": "Additional-Metadata_Publisher"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/qccx-65fg",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/Howard-County-Police-Department-Call-For-Service-2/qccx-65fg",
+    "owner": {
+      "id": "n9w7-tmda",
+      "display_name": "Jeanne Upchurch"
+    }
+  },
+  {
+    "resource": {
+      "description": "Issued Permits:  01/01/2010 - Present",
+      "type": "dataset",
+      "download_count": 297,
+      "parent_fxf": null,
+      "createdAt": "2015-04-30T17:13:40.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 2388442,
+        "page_views_total_log": 21.18763901674312,
+        "page_views_last_week": 9,
+        "page_views_last_week_log": 3.3219280948873626,
+        "page_views_last_month_log": 4.247927513443585,
+        "page_views_last_month": 18
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Building, Electrical, Fire, Grading, Mechanical, Plumbing & Sign Permits: 2010 - Present",
+      "attribution": "Department of Inspections, Licenses & Permits",
+      "columns_name": [
+        "PERMIT_NUMBER",
+        "SEWER",
+        "CITY",
+        "CENSUS_TRACT",
+        "ISSUE_DATE",
+        "FILE_DATE",
+        "TYPE",
+        "PERMIT_TYPE",
+        "CATEGORY",
+        "ZIP",
+        "WATER"
+      ],
+      "id": "kvz2-j5cj",
+      "columns_field_name": [
+        "permit_number",
+        "sewer",
+        "city",
+        "census_tract",
+        "issue_date",
+        "file_date",
+        "type",
+        "permit_type",
+        "category",
+        "zip",
+        "water"
+      ],
+      "view_count": {
+        "page_views_total": 2388442,
+        "page_views_total_log": 21.18763901674312,
+        "page_views_last_week": 9,
+        "page_views_last_week_log": 3.3219280948873626,
+        "page_views_last_month_log": 4.247927513443585,
+        "page_views_last_month": 18
+      },
+      "updatedAt": "2017-02-03T22:19:54.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "infrastructure"
+      ],
+      "tags": [],
+      "domain_category": "Licenses and Permits",
+      "domain_tags": [
+        "sign permit",
+        "plumbing permit",
+        "hvac permit",
+        "mechanical permit",
+        "grading permit",
+        "fire permit",
+        "electrical permit",
+        "building permit",
+        "permits",
+        "issued permits"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County, Maryland",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2010 - Present",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Department of Inspections, Licenses & Permits",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Monthly",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov",
+      "license": "Public Domain"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/kvz2-j5cj",
+    "link": "https://opendata.howardcountymd.gov/Licenses-and-Permits/Building-Electrical-Fire-Grading-Mechanical-Plumbi/kvz2-j5cj",
+    "owner": {
+      "id": "y48e-rpnp",
+      "display_name": "Walker, C."
+    }
+  },
+  {
+    "resource": {
+      "name": "Order and Referring",
+      "id": "qcn7-gc3g",
+      "parent_fxf": null,
+      "description": "Order and Referring data file has National Provider Identifier (NPI) and legal name (last name, first name) of all physicians and non-physician practitioners who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare (i.e., they have enrollment records in PECOS)",
+      "attribution": "CMS",
+      "type": "dataset",
+      "updatedAt": "2017-09-14T20:26:58.000Z",
+      "createdAt": "2013-12-18T18:27:02.000Z",
+      "view_count": {
+        "page_views_last_week": 33832,
+        "page_views_last_month": 139971,
+        "page_views_total": 2283767,
+        "page_views_last_week_log": 15.046143487311845,
+        "page_views_last_month_log": 17.09477873374113,
+        "page_views_total_log": 21.122984669127522
+      },
+      "page_views": {
+        "page_views_last_week": 33832,
+        "page_views_last_month": 139971,
+        "page_views_total": 2283767,
+        "page_views_last_week_log": 15.046143487311845,
+        "page_views_last_month_log": 17.09477873374113,
+        "page_views_total_log": 21.122984669127522
+      },
+      "columns_name": [
+        "FIRST NAME",
+        "NPI",
+        "LAST NAME"
+      ],
+      "columns_field_name": [
+        "first_name",
+        "npi",
+        "last_name"
+      ],
+      "columns_datatype": [
+        "text",
+        "number",
+        "text"
+      ],
+      "columns_description": [
+        "",
+        "",
+        ""
+      ],
+      "download_count": 539576,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [
+        "health"
+      ],
+      "tags": [],
+      "domain_category": "Medicare - Enrollment",
+      "domain_tags": [
+        "order and referring"
+      ],
+      "domain_metadata": [
+        {
+          "value": "cardinal.williams@cms.hhs.gov",
+          "key": "Common-Core_Contact-Email"
+        },
+        {
+          "value": "CMS",
+          "key": "Common-Core_Contact-Name"
+        },
+        {
+          "value": "009:000",
+          "key": "Common-Core_Program-Code"
+        },
+        {
+          "value": "009:38",
+          "key": "Common-Core_Bureau-Code"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.cms.gov",
+      "license": "Public Domain"
+    },
+    "permalink": "https://data.cms.gov/d/qcn7-gc3g",
+    "link": "https://data.cms.gov/Medicare-Enrollment/Order-and-Referring/qcn7-gc3g",
+    "owner": {
+      "id": "xg9z-qwbg",
+      "display_name": "Rupinder Singh"
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "One record for each emergency response by a Fire Department unit, including dispatch and response times, action taken, and counts of personnel which responded. This is an expansion of data available in the Howard County Fire And Rescue Incidents data set. Further detail is available in the Howard County Fire and Rescue Personnel Responses data set.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 155,
+      "parent_fxf": null,
+      "createdAt": "2015-04-24T14:34:49.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 1872016,
+        "page_views_total_log": 20.836162105583277,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.584962500721156,
+        "page_views_last_month": 5
+      },
+      "columns_description": [
+        "",
+        "The time that the unit was alerted by the 911 Center",
+        "Was the unit's response canceled by 911 or Incident Command prior to arrival?",
+        "",
+        "",
+        "Was this unit reported as first unit to arrive on scene?",
+        "",
+        "",
+        "",
+        "Was this unit located in its assigned station when alerted? (Often, a unit is dispatched while still returning from a previous call.)",
+        "",
+        "The time the unit arrived at the location of the incident",
+        "The time the unit began travel to the scene"
+      ],
+      "name": "Fire And Rescue Apparatus Responses: 2012 - 2014",
+      "attribution": "Department of Fire and Rescue Services",
+      "columns_name": [
+        "Incident_ID",
+        "Dispatch_Time",
+        "Canceled_Enroute",
+        "Action_Taken_Code",
+        "Action_Taken",
+        "First_Arriving_Unit",
+        "Apparartus_Type",
+        "Apparatus_Type_Code",
+        "Apparatus_ID",
+        "Responded_From_Quarters",
+        "Number_Of_People",
+        "Arrival_Time",
+        "Enroute_Scene_Time"
+      ],
+      "columns_field_name": [
+        "incident_id",
+        "dispatch_time",
+        "canceled_enroute",
+        "action_taken_code",
+        "action_taken",
+        "first_arriving_unit",
+        "apparartus_type",
+        "apparatus_type_code",
+        "apparatus_id",
+        "responded_from_quarters",
+        "number_of_people",
+        "arrival_time",
+        "enroute_scene_time"
+      ],
+      "id": "xvpn-2pnt",
+      "view_count": {
+        "page_views_total": 1872016,
+        "page_views_total_log": 20.836162105583277,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.584962500721156,
+        "page_views_last_month": 5
+      },
+      "updatedAt": "2015-05-01T01:29:46.000Z",
+      "columns_datatype": [
+        "number",
+        "calendar_date",
+        "text",
+        "number",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "text",
+        "number",
+        "text",
+        "calendar_date"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "public safety"
+      ],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "apparatus",
+        "ems",
+        "fire",
+        "rescue"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County, Maryland",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2012 - 2014",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Department of Fire and Rescue Services",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Continuous",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/xvpn-2pnt",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/Fire-And-Rescue-Apparatus-Responses-2012-2014/xvpn-2pnt",
+    "owner": {
+      "id": "u68m-5jft",
+      "display_name": "Wilson, S."
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "One record for each emergency on which the Fire Department sent apparatus and personnel. More detail is available in the Apparatus Response and Personnel Response data sets.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 185,
+      "parent_fxf": null,
+      "createdAt": "2015-05-01T19:29:11.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 1855298,
+        "page_views_total_log": 20.823220279650524,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.0,
+        "page_views_last_month": 3
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Fire & Rescue Incidents: 2012 - Present",
+      "attribution": null,
+      "columns_name": [
+        "Citizen_Injuries",
+        "Fire_Service_Injuries",
+        "Citizen_Fatalities",
+        "Property_Use_Code",
+        "State",
+        "Zip",
+        "City",
+        "Number_Ambulances",
+        "Property_Use",
+        "Incident_Type_Code",
+        "Incident_Number",
+        "Incident_Type",
+        "Date_Time",
+        "Action_Taken",
+        "Number_Other_Personnel",
+        "Number_Fire_Personnel",
+        "FIrst_Due_Station",
+        "Number_Engines",
+        "Action_Taken_Code",
+        "Number_Medical_Personnel",
+        "Number_Other",
+        "Fire_Service_Fatalities",
+        "Emergency_Medical_Service_Provided"
+      ],
+      "columns_field_name": [
+        "citizen_injuries",
+        "fire_service_injuries",
+        "citizen_fatalities",
+        "property_use_code",
+        "state",
+        "zip",
+        "city",
+        "number_ambulances",
+        "property_use",
+        "incident_type_code",
+        "incident_number",
+        "incident_type",
+        "date_time",
+        "action_taken",
+        "number_other_personnel",
+        "number_fire_personnel",
+        "first_due_station",
+        "number_engines",
+        "action_taken_code",
+        "number_medical_personnel",
+        "number_other",
+        "fire_service_fatalities",
+        "emergency_medical_service_provided"
+      ],
+      "id": "f362-6fup",
+      "view_count": {
+        "page_views_total": 1855298,
+        "page_views_total_log": 20.823220279650524,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.0,
+        "page_views_last_month": 3
+      },
+      "updatedAt": "2015-09-28T19:37:17.000Z",
+      "columns_datatype": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "text",
+        "number",
+        "text",
+        "number",
+        "text",
+        "number",
+        "number",
+        "text",
+        "calendar_date",
+        "text",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "ems",
+        "fire"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County Government",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2012-2014",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Howard County Department of FIre and Rescue Services",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Continuous",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/f362-6fup",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/Fire-Rescue-Incidents-2012-Present/f362-6fup",
+    "owner": {
+      "id": "u68m-5jft",
+      "display_name": "Wilson, S."
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "One record for each emergency response by a Fire Department member, including rank and career / volunteer / contingent status of personnel which responded. This is an expansion of data available in the Howard County Fire And Rescue Incidents data set. Further detail is available in the Howard County Fire and Rescue Personnel Responses data set.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 130,
+      "parent_fxf": null,
+      "createdAt": "2015-04-24T15:20:47.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 1843477,
+        "page_views_total_log": 20.81399876878803,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 0.0,
+        "page_views_last_month": 0
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Fire & Rescue Personnel Responses: 2012 - 2014",
+      "attribution": "Department of Fire and Rescue Services",
+      "columns_name": [
+        "Incident_ID",
+        "Apparatus_ID",
+        "Rank",
+        "incidentdate",
+        "Status"
+      ],
+      "columns_field_name": [
+        "incident_id",
+        "apparatus_id",
+        "rank",
+        "incidentdate",
+        "status"
+      ],
+      "id": "8fxg-nyr5",
+      "view_count": {
+        "page_views_total": 1843477,
+        "page_views_total_log": 20.81399876878803,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 0.0,
+        "page_views_last_month": 0
+      },
+      "updatedAt": "2015-05-01T19:23:09.000Z",
+      "columns_datatype": [
+        "number",
+        "text",
+        "text",
+        "calendar_date",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "ems",
+        "fire",
+        "personnel",
+        "rescue"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County, Maryland",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2012 - 2014",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Department of Fire and Rescue Services",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Continuous",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/8fxg-nyr5",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/Fire-Rescue-Personnel-Responses-2012-2014/8fxg-nyr5",
+    "owner": {
+      "id": "u68m-5jft",
+      "display_name": "Wilson, S."
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "Emergency incidents created by HCPD's 911 Dispatch Center and classified as Fire, Rescue or Emergency Medical Service (EMS) calls. Not all of these incidents are created as cases, and thus not all of these incidents have a matching record in the Howard County Fire & Rescue Incidents table.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 160,
+      "parent_fxf": null,
+      "createdAt": "2015-04-23T15:39:41.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 1720911,
+        "page_views_total_log": 20.714741895400977,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 1.5849625007211563,
+        "page_views_last_month": 2
+      },
+      "columns_description": [
+        "The date the incident was created.",
+        "A unique incident number for each call.",
+        "",
+        "",
+        "",
+        "",
+        "The sub-type code. Note that 'ALS' is an advanced life support call, meaning a paramedic's services are required. BLS is a basic life support call, for which an EMT is required.",
+        ""
+      ],
+      "name": "Fire Dispatches: 2012 - 2014",
+      "attribution": "Department of Fire & Rescue Services",
+      "columns_name": [
+        "Incident_Date",
+        "ID",
+        "Type_English",
+        "Type_Code",
+        "Station",
+        "Location",
+        "Sub_Type_Code",
+        "Sub_Type_English"
+      ],
+      "columns_field_name": [
+        "incident_date",
+        "id",
+        "type_english",
+        "type_code",
+        "station",
+        "location",
+        "sub_type_code",
+        "sub_type_english"
+      ],
+      "id": "6uza-cd7z",
+      "view_count": {
+        "page_views_total": 1720911,
+        "page_views_total_log": 20.714741895400977,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 1.5849625007211563,
+        "page_views_last_month": 2
+      },
+      "updatedAt": "2015-05-01T01:32:31.000Z",
+      "columns_datatype": [
+        "calendar_date",
+        "number",
+        "text",
+        "text",
+        "number",
+        "location",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "public safety",
+        "health"
+      ],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "911",
+        "dispatch",
+        "ems",
+        "fire",
+        "rescue"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County, Maryland",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2012-2014",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Department of Fire & Rescue Services",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Continuous",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/6uza-cd7z",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/Fire-Dispatches-2012-2014/6uza-cd7z",
+    "owner": {
+      "id": "u68m-5jft",
+      "display_name": "Wilson, S."
+    }
+  },
+  {
+    "resource": {
+      "description": "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+      "type": "dataset",
+      "download_count": 12052,
+      "parent_fxf": null,
+      "createdAt": "2013-04-18T15:18:56.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 1369052,
+        "page_views_total_log": 20.384746867897416,
+        "page_views_last_week": 1009,
+        "page_views_last_week_log": 9.980139577639157,
+        "page_views_last_month_log": 11.898979204622513,
+        "page_views_last_month": 3818
+      },
+      "columns_description": [
+        "Number assigned by City Planning to a specific building",
+        "Hazardous",
+        "Date when job is prefiled",
+        "Owner's  Phone #",
+        "House Street Name of Property Owner",
+        "Proposed Height",
+        "Existing Occupancy",
+        "Existing Zoning Sqft",
+        "Last Name of property owner",
+        "Sprinkler  Work Type? (X=Yes, Blank=No)",
+        "Other? (X=Yes, Blank=No)",
+        "Loft Board",
+        "Job is Professionally Certified by Licensed Professional instead of having it reviewed by Department of Building's Plan Examiners",
+        "Plumbing Work Type? (X=Yes, Blank=No)",
+        "Standpipe Work Type? (X=Yes, Blank=No)",
+        "Applicant's Professional Title",
+        "Boiler  Work Type? (X=Yes, Blank=No)",
+        "House Number of Property Owner",
+        "Mechanical  Work Type? (X=Yes, Blank=No)",
+        "Job Type, based on DOB Job Code (NB-New Building, A1, A2, A3- Alterations 1-3, SG-Sign, etc.)",
+        "First Name of property owner",
+        "Other Description",
+        "Zoning Distr 1",
+        "Last Name of Applicant",
+        "Existing Height",
+        "Equipment  Work Type? (X=Yes, Blank=No)",
+        "Proposed Dwelling Units",
+        "Tax lot assigned by Department of Finance",
+        "House Number of Residence or Commercial Property",
+        "Owner Type",
+        "Fuel Storage  Work Type? (X=Yes, Blank=No)",
+        "ExistingNo. of Stories",
+        "Zoning Distr 3",
+        "Date when job is assigned to plan examiner",
+        "City Owned",
+        "Status code description",
+        "Date when job is paid",
+        "Site Fill",
+        "Existing Dwelling Units",
+        "Type of Fee",
+        "Zip",
+        "Job Description",
+        "Vertical Enlrgmt",
+        "Fire Alarm  Work Type? (X=Yes, Blank=No)",
+        "Date when query is run and pushed to Open Data. Could be used to differentiate report dates.",
+        "Application Filed electronically, rather than manually",
+        "Cluster",
+        "Non-Profit",
+        "Special Distr 1",
+        "Special District 2",
+        "Street Name where Property is located",
+        "State",
+        "Business Name of Property Owner",
+        "Number assigned by DOB to Job Filing",
+        "Document Number",
+        "3-digit identifier: Borough code = first position, last 2 = community board",
+        "1-2-3 Family  or Other",
+        "Number assigned to the skilled trade person/contractor or licensed professional",
+        "First Name of Applicant",
+        "Street Frontage",
+        "City ",
+        "Proposed Occupancy",
+        "Adult Estab",
+        "Fuel Burning  Work Type? (X=Yes, Blank=No)",
+        "DOB Status code of job (A-Pre Filed, I-Sign Off, P- Approved, R-Permit Entire) Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+        "Fire Suppression  Work Type? (X=Yes, Blank=No)",
+        "Horizontal Enlrgmt",
+        "Curb Cut  Work Type? (X=Yes, Blank=No)",
+        "L code indicates that the building has been assigned landmark status",
+        "Application Filed electronically, rather than manually",
+        "1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island",
+        "Date when job is fully permitted",
+        "Date when job is paid and entered",
+        "Tax block assigned by Department of Finance",
+        "Enlargement SQ Footage",
+        "Latest status date",
+        " Estimated cost of job",
+        "Proposed No. of Stories",
+        "Date when job is approved",
+        "Proposed Zoning Sqft",
+        "Estimated fee of job",
+        "Zoning Distr 2"
+      ],
+      "name": "DOB Job Application Filings",
+      "attribution": "Department of Buildings (DOB)",
+      "columns_name": [
+        "Bin #",
+        "Little e",
+        "Pre- Filing Date",
+        "Owner'sPhone #",
+        "Owner'sHouse Street Name",
+        "Proposed Height",
+        "Existing Occupancy",
+        "Existing Zoning Sqft",
+        "Owner's Last Name",
+        "Sprinkler",
+        "Other",
+        "Loft Board",
+        "Professional Cert",
+        "Plumbing",
+        "Standpipe",
+        "Applicant Professional Title",
+        "Boiler",
+        "Owner's House Number",
+        "Mechanical",
+        "Job Type",
+        "Owner's First Name",
+        "Other Description",
+        "Zoning Dist1",
+        "Applicant's Last Name",
+        "Existing Height",
+        "Equipment",
+        "Proposed Dwelling Units",
+        "Lot",
+        "House #",
+        "Owner Type",
+        "Fuel Storage",
+        "ExistingNo. of Stories",
+        "Zoning Dist3",
+        "Assigned",
+        "City Owned",
+        "Job Status Descrp",
+        "Paid",
+        "Site Fill",
+        "Existing Dwelling Units",
+        "Fee Status",
+        "Zip",
+        "Job Description",
+        "Vertical Enlrgmt",
+        "Fire Alarm",
+        "DOBRunDate",
+        "eFiling Filed",
+        "Cluster",
+        "Non-Profit",
+        "Special District 1",
+        "Special District 2",
+        "Street Name",
+        "State",
+        "Owner's Business Name",
+        "Job #",
+        "Doc #",
+        "Community - Board",
+        "Building Type",
+        "Applicant License #",
+        "Applicant's First Name",
+        "Street Frontage",
+        "City ",
+        "Proposed Occupancy",
+        "Adult Estab",
+        "Fuel Burning",
+        "Job Status",
+        "Fire Suppression",
+        "Horizontal Enlrgmt",
+        "Curb Cut",
+        "Landmarked",
+        "PC Filed",
+        "Borough",
+        "Fully Permitted",
+        "Fully Paid",
+        "Block",
+        "Enlargement SQ Footage",
+        "Latest Action Date",
+        "Initial Cost",
+        "Proposed No. of Stories",
+        "Approved",
+        "Proposed Zoning Sqft",
+        "Total Est. Fee",
+        "Zoning Dist2"
+      ],
+      "id": "ic3t-wcy2",
+      "columns_field_name": [
+        "bin__",
+        "little_e",
+        "pre__filing_date",
+        "owner_sphone__",
+        "owner_shouse_street_name",
+        "proposed_height",
+        "existing_occupancy",
+        "existing_zoning_sqft",
+        "owner_s_last_name",
+        "sprinkler",
+        "other",
+        "loft_board",
+        "professional_cert",
+        "plumbing",
+        "standpipe",
+        "applicant_professional_title",
+        "boiler",
+        "owner_s_house_number",
+        "mechanical",
+        "job_type",
+        "owner_s_first_name",
+        "other_description",
+        "zoning_dist1",
+        "applicant_s_last_name",
+        "existing_height",
+        "equipment",
+        "proposed_dwelling_units",
+        "lot",
+        "house__",
+        "owner_type",
+        "fuel_storage",
+        "existingno_of_stories",
+        "zoning_dist3",
+        "assigned",
+        "city_owned",
+        "job_status_descrp",
+        "paid",
+        "site_fill",
+        "existing_dwelling_units",
+        "fee_status",
+        "zip",
+        "job_description",
+        "vertical_enlrgmt",
+        "fire_alarm",
+        "dobrundate",
+        "efiling_filed",
+        "cluster",
+        "non_profit",
+        "special_district_1",
+        "special_district_2",
+        "street_name",
+        "state",
+        "owner_s_business_name",
+        "job__",
+        "doc__",
+        "community___board",
+        "building_type",
+        "applicant_license__",
+        "applicant_s_first_name",
+        "street_frontage",
+        "city_",
+        "proposed_occupancy",
+        "adult_estab",
+        "fuel_burning",
+        "job_status",
+        "fire_suppression",
+        "horizontal_enlrgmt",
+        "curb_cut",
+        "landmarked",
+        "pc_filed",
+        "borough",
+        "fully_permitted",
+        "fully_paid",
+        "block",
+        "enlargement_sq_footage",
+        "latest_action_date",
+        "initial_cost",
+        "proposed_no_of_stories",
+        "approved",
+        "proposed_zoning_sqft",
+        "total_est__fee",
+        "zoning_dist2"
+      ],
+      "view_count": {
+        "page_views_total": 1369052,
+        "page_views_total_log": 20.384746867897416,
+        "page_views_last_week": 1009,
+        "page_views_last_week_log": 9.980139577639157,
+        "page_views_last_month_log": 11.898979204622513,
+        "page_views_last_month": 3818
+      },
+      "updatedAt": "2017-09-14T21:08:55.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "number",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "number",
+        "text",
+        "text",
+        "number",
+        "text",
+        "number",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "finance",
+        "economy",
+        "environment"
+      ],
+      "tags": [],
+      "domain_category": "Housing & Development",
+      "domain_tags": [
+        "job",
+        "dob",
+        "buildings"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Yes",
+          "key": "Update_Automation"
+        },
+        {
+          "value": "Daily",
+          "key": "Update_Update-Frequency"
+        },
+        {
+          "value": "Department of Buildings (DOB)",
+          "key": "Dataset-Information_Agency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.cityofnewyork.us"
+    },
+    "permalink": "https://data.cityofnewyork.us/d/ic3t-wcy2",
+    "link": "https://data.cityofnewyork.us/Housing-Development/DOB-Job-Application-Filings/ic3t-wcy2",
+    "owner": {
+      "id": "5fuc-pqz2",
+      "display_name": "NYC OpenData"
+    }
+  },
+  {
+    "resource": {
+      "name": "New Driver Application Status",
+      "id": "dpec-ucu7",
+      "parent_fxf": null,
+      "description": "THIS DATASET IS UPDATED SEVERAL TIMES PER DAY. TLC Driver application status check for applicants who had applied for a new TLC driver\u2019s license. For more information and to upload missing requirements, visit www.nyc.gov/tlcup\r\n\r\nFor historical/archived data of past application statuses, please see- https://data.cityofnewyork.us/Transportation/Historical-Driver-Application-Status/p32s-yqxq",
+      "attribution": "Taxi and Limousine Commission (TLC)",
+      "type": "dataset",
+      "updatedAt": "2017-09-15T16:15:24.000Z",
+      "createdAt": "2016-05-17T18:43:43.000Z",
+      "view_count": {
+        "page_views_last_week": 9535,
+        "page_views_last_month": 40205,
+        "page_views_total": 1286986,
+        "page_views_last_week_log": 13.219168520462162,
+        "page_views_last_month_log": 15.29512319250407,
+        "page_views_total_log": 20.29556605013201
+      },
+      "page_views": {
+        "page_views_last_week": 9535,
+        "page_views_last_month": 40205,
+        "page_views_total": 1286986,
+        "page_views_last_week_log": 13.219168520462162,
+        "page_views_last_month_log": 15.29512319250407,
+        "page_views_total_log": 20.29556605013201
+      },
+      "columns_name": [
+        "Drug Test",
+        "Last Updated",
+        "Type",
+        "Other Requirements",
+        "Driver Exam",
+        "FRU Interview Scheduled",
+        "WAV Course",
+        "App Date",
+        "Defensive Driving",
+        "App No",
+        "Medical Clearance Form",
+        "Status"
+      ],
+      "columns_field_name": [
+        "drug_test",
+        "lastupdate",
+        "type",
+        "other_requirements",
+        "driver_exam",
+        "fru_interview_scheduled",
+        "wav_course",
+        "app_date",
+        "defensive_driving",
+        "app_no",
+        "medical_clearance_form",
+        "status"
+      ],
+      "columns_description": [
+        "Drug testing is required for Medallion and FHV TLC driver\u2019s licenses. \"Needed\": You must take and pass a drug test at an approved testing facility. \u201cNot Applicable\u201d: If you applied for a Paratransit or Commuter Van license you do not need to take a TLC Drug Test. \u201cComplete\u201d: Your drug test information has been received and updated in your TLC record.",
+        "Latest Updated Date\n",
+        "This is the classification of license you have applied for. HDR: Medallion /For-Hire Vehicle Operator. PDR: Paratransit Vehicle Operator. VDR: Commuter Van Vehicle Operator \n",
+        "This field is for miscellaneous items that may need more sensitive information. Visit www.nyc.gov/tlcup for more information and to upload missing requirements. \u201cNot Applicable\u201d: \u201cOther requirements\u201d do not apply to you at this time. \n",
+        "Upon Completion of TLC Driver Training (Taxi School), you will need to take and pass a final exam. Passing score is 70%. \u201cNeeded\u201d: Your TLC Driver Exam information is not in our system. If you have not taken your TLC Driver Exam please do so. \u201cNot Applicable\u201d: If you applied for a Paratransit or Commuter Van license you will not need to take this exam. \u201cComplete\u201d: Your TLC Driver Exam information has been received and updated in your TLC record\n",
+        "Fitness Review Unit Interview: \u201cNot Applicable\u201d if no Fitness Review is necessary. OR If there is a date, a Fitness Interview has been scheduled. Watch your mail/email for more information.\n",
+        "Wheelchair Accessible Vehicle Training (WAV) is a requirement for those who apply for a Medallion or For-Hire Vehicle driver\u2019s license. \u201cNeeded\u201d: You must take the Wheelchair Accessible Vehicle Training Course within 90 days from the date you submitted your application. \u201cNot Applicable\u201d: If you applied for a Paratransit or Commuter Van license you will not need to take this training. \u201cComplete\u201d: Your WAV training information has been received and updated in your TLC record.\n",
+        "The date you submitted your application.",
+        "A NYS certified 6 hour Defensive Driving Course is a requirement to receive your TLC license.\n",
+        "This is the number linked to your application.\nOnce your application has been approved this will become your license number.",
+        "A Medical Clearance form from a licensed medical doctor is a requirement for those who apply for a Medallion or a For-Hire Vehicle driver\u2019s license. If the entry is: \u201cNeeded\u201d: Your Medical Clearance form is not in our system. If you have not been medically cleared by a licensed medical doctor please do so immediately. \u201cNot Applicable\u201d: If you applied for a Paratransit or Commuter Van license you will not need to take this step as it is covered by your 19A status. \u201cComplete\u201d: Your Medical Clearance has been received and updated in your TLC record.\n",
+        "The stage of the review process that your application is currently in: \u201cIncomplete\u201d: Your application is missing requirements. Courtesy reminders are  sent by mail/email/text. \u201cPending Fitness Interview\u201d: Your application has been forwarded to the Fitness Review Unit for a Fitness Interview. See the next column for interview date if available. \u201cDenied\u201d: Your application has been denied. \u201cUnder Review\u201d: Your application is still being processed. \u201cApproved \u2013 License Issued\u201d: Your application has been approved and your license will be mailed to the address provided on your application.\n"
+      ],
+      "download_count": 5769,
+      "provenance": "official",
+      "columns_datatype": [
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "text",
+        "number",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "transportation",
+        "environment"
+      ],
+      "tags": [],
+      "domain_category": "Transportation",
+      "domain_tags": [
+        "status",
+        "limousine",
+        "results",
+        "green",
+        "fhv",
+        "new application",
+        "wheelchair accessible vehicle",
+        "wav",
+        "dmv",
+        "taxi",
+        "tlc",
+        "drug test",
+        "fru",
+        "defensive driver",
+        "driver exam",
+        "medical clearance",
+        "hack number",
+        "fingerprint",
+        "exam fee",
+        "driver",
+        "street hail livery",
+        "shl",
+        "medallion",
+        "exam",
+        "for-hire"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Taxi and Limousine Commission (TLC)",
+          "key": "Dataset-Information_Agency"
+        },
+        {
+          "value": "",
+          "key": "Legislative-Compliance_DoITT-Geocoded--Fields?"
+        },
+        {
+          "value": "",
+          "key": "Legislative-Compliance_DoITT-Geocoded--How?"
+        },
+        {
+          "value": "",
+          "key": "Legislative-Compliance_Externally-Updated--When?"
+        },
+        {
+          "value": "Yes",
+          "key": "Update_Automation"
+        },
+        {
+          "value": "6/24/2016",
+          "key": "Update_Date-Made-Public"
+        },
+        {
+          "value": "Several times per day",
+          "key": "Update_Update-Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.cityofnewyork.us"
+    },
+    "permalink": "https://data.cityofnewyork.us/d/dpec-ucu7",
+    "link": "https://data.cityofnewyork.us/Transportation/New-Driver-Application-Status/dpec-ucu7",
+    "owner": {
+      "id": "5fuc-pqz2",
+      "display_name": "NYC OpenData"
+    }
+  },
+  {
+    "resource": {
+      "name": "Current Employee Names, Salaries, and Position Titles",
+      "id": "xzkq-xp2w",
+      "parent_fxf": null,
+      "description": "This dataset is a listing of all current City of Chicago employees, complete with full names, departments, positions, employment status (part-time or full-time), frequency of hourly employee \u2013where applicable\u2014and annual salaries or hourly rate. For hourly employees, the City is providing the hourly rate and frequency of hourly employees (40, 35, 20 and 10) to allow dataset users to estimate annual wages for hourly employees. Please note that annual wages will vary by employee, depending on number of hours worked and seasonal status. For information on the positions and related salaries detailed in the annual budgets, see https://www.cityofchicago.org/city/en/depts/obm.html",
+      "attribution": "City of Chicago",
+      "type": "dataset",
+      "updatedAt": "2017-09-13T14:28:00.000Z",
+      "createdAt": "2011-09-27T20:18:55.000Z",
+      "view_count": {
+        "page_views_last_week": 5222,
+        "page_views_last_month": 20650,
+        "page_views_total": 941064,
+        "page_views_last_week_log": 12.350662988372259,
+        "page_views_last_month_log": 14.333924023669228,
+        "page_views_total_log": 19.843934848760473
+      },
+      "page_views": {
+        "page_views_last_week": 5222,
+        "page_views_last_month": 20650,
+        "page_views_total": 941064,
+        "page_views_last_week_log": 12.350662988372259,
+        "page_views_last_month_log": 14.333924023669228,
+        "page_views_total_log": 19.843934848760473
+      },
+      "columns_name": [
+        "Salary or Hourly",
+        "Typical Hours",
+        "Annual Salary",
+        "Hourly Rate",
+        "Name",
+        "Full or Part-Time",
+        "Department",
+        "Job Titles"
+      ],
+      "columns_field_name": [
+        "salary_or_hourly",
+        "typical_hours",
+        "annual_salary",
+        "hourly_rate",
+        "name",
+        "full_or_part_time",
+        "department",
+        "job_titles"
+      ],
+      "columns_datatype": [
+        "text",
+        "number",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "columns_description": [
+        "Defines whether an employee is paid on an hourly basis or salary basis. Hourly employees are further defined by the number of hours they work in a week. See the \"Frequency Description\" column.",
+        "Describes the typical amount of work for hourly employees. This data does not apply to salary employees.\n\n40 - Employee paid on an hourly basis; works an 8 hour day; can be either full-time permanent (FT/P) or full-time temporary (FT-T) which is a seasonal employee; 35 - Employee paid on an hourly basis; works a 7 hour day; can be either full-time permanent (FT/P) or full-time temporary (FT-T) which is a seasonal employee; 20 - Employee paid on a part-time, hourly basis; typically works a 4 hour day, 5 days a week; 10 - Employee paid on a part-time, hourly basis; works 10 hours or less in a week.",
+        "Annual salary rates. Only applies for employees whose pay frequency is \"Salary\". Hourly employees rates are only shown in \"Hourly Rates\" column.",
+        "The hourly salary rates for individuals whose pay frequency is \"hourly\". Hourly employees have varying hours worked throughout the week, which is described in the \"Frequency Description\" column.",
+        "Name of employee",
+        "Whether the employee was employed full- (F) or part-time (P).",
+        "Department where employee worked.",
+        "Title of employee at the time when the data was updated."
+      ],
+      "download_count": 65738,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [
+        "finance",
+        "demographics",
+        "economy"
+      ],
+      "tags": [],
+      "domain_category": "Administration & Finance",
+      "domain_tags": [
+        "personnel"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Last Updated May 2017",
+          "key": "Metadata_Time-Period"
+        },
+        {
+          "value": "Data are updated semi-annually",
+          "key": "Metadata_Frequency"
+        },
+        {
+          "value": "Human Resources",
+          "key": "Metadata_Data-Owner"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.cityofchicago.org"
+    },
+    "permalink": "https://data.cityofchicago.org/d/xzkq-xp2w",
+    "link": "https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w",
+    "owner": {
+      "id": "vi9p-p863",
+      "display_name": "Eric Phillips"
+    }
+  },
+  {
+    "resource": {
+      "name": "Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980",
+      "id": "hsys-3def",
+      "parent_fxf": null,
+      "description": "Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lottery website for past Daily Numbers/Win-4 results and payouts.",
+      "attribution": "New York State Gaming Commission",
+      "type": "dataset",
+      "updatedAt": "2017-09-15T11:25:22.000Z",
+      "createdAt": "2013-02-26T20:21:34.000Z",
+      "view_count": {
+        "page_views_last_week": 1139,
+        "page_views_last_month": 4682,
+        "page_views_total": 878088,
+        "page_views_last_week_log": 10.154818109052105,
+        "page_views_last_month_log": 12.193217322699065,
+        "page_views_total_log": 19.7440076480828
+      },
+      "page_views": {
+        "page_views_last_week": 1139,
+        "page_views_last_month": 4682,
+        "page_views_total": 878088,
+        "page_views_last_week_log": 10.154818109052105,
+        "page_views_last_month_log": 12.193217322699065,
+        "page_views_total_log": 19.7440076480828
+      },
+      "columns_name": [
+        "Evening Daily #",
+        "Midday Daily #",
+        "Evening Win 4 #",
+        "Draw Date",
+        "Midday Daily Sum",
+        "Midday Win 4 #",
+        "Evening Win 4 Sum",
+        "Midday Win 4 Sum",
+        "Evening Daily Sum"
+      ],
+      "columns_field_name": [
+        "evening_daily",
+        "midday_daily",
+        "evening_win_4",
+        "draw_date",
+        "midday_daily_sum",
+        "midday_win_4",
+        "evening_win_4_sum",
+        "midday_win_4_sum",
+        "evening_daily_sum"
+      ],
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "number",
+        "text",
+        "number",
+        "number",
+        "number"
+      ],
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "download_count": 10485,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Government & Finance",
+      "domain_tags": [
+        "results",
+        "winning",
+        "new york lottery",
+        "win-4",
+        "numbers"
+      ],
+      "domain_metadata": [
+        {
+          "value": "opendata@its.ny.gov",
+          "key": "Common-Core_Contact-Email"
+        },
+        {
+          "value": "Open Data NY",
+          "key": "Common-Core_Contact-Name"
+        },
+        {
+          "value": "State of New York",
+          "key": "Common-Core_Publisher"
+        },
+        {
+          "value": "http://nylottery.ny.gov/wps/portal/Home/Lottery/home/your+lottery/drawing+results/drawingresults_numbers",
+          "key": "Additional-Resources_See-Also-"
+        },
+        {
+          "value": "http://nylottery.ny.gov/wps/portal/Home/Lottery/home/your+lottery/drawing+results/drawingresults_win4",
+          "key": "Additional-Resources_See-Also-"
+        },
+        {
+          "value": "http://www.gaming.ny.gov/",
+          "key": "Additional-Resources_See-Also"
+        },
+        {
+          "value": "Lottery",
+          "key": "Dataset-Summary_Dataset-Owner"
+        },
+        {
+          "value": "Drawings Unit",
+          "key": "Dataset-Summary_Units"
+        },
+        {
+          "value": "Info@gaming.ny.gov",
+          "key": "Dataset-Summary_Contact-Information"
+        },
+        {
+          "value": "Draw Date",
+          "key": "Dataset-Summary_Granularity"
+        },
+        {
+          "value": "Statewide",
+          "key": "Dataset-Summary_Coverage"
+        },
+        {
+          "value": "Daily",
+          "key": "Dataset-Summary_Data-Frequency"
+        },
+        {
+          "value": "Daily",
+          "key": "Dataset-Summary_Posting-Frequency"
+        },
+        {
+          "value": "The New York Lottery",
+          "key": "Dataset-Summary_Organization"
+        },
+        {
+          "value": "09/02/1980 to present",
+          "key": "Dataset-Summary_Time-Period"
+        },
+        {
+          "value": "Gaming Commission, New York State",
+          "key": "Dataset-Information_Agency"
+        },
+        {
+          "value": "The information contained on these pages is believed to be accurate. In the event of a discrepancy between the information displayed on this Web site concerning winning numbers and payouts and the information contained in the official and certified files maintained by the New York Lottery's Drawing Unit, those maintained by the Drawing Unit shall prevail.",
+          "key": "Notes_Notes"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "data.ny.gov"
+    },
+    "permalink": "https://data.ny.gov/d/hsys-3def",
+    "link": "https://data.ny.gov/Government-Finance/Lottery-Daily-Numbers-Win-4-Winning-Numbers-Beginn/hsys-3def",
+    "owner": {
+      "id": "xzik-pf59",
+      "display_name": "NY Open Data"
+    }
+  },
+  {
+    "resource": {
+      "description": "<div>This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. Should you have questions about this dataset, you may contact the Research &amp; Development Division of the Chicago Police Department at 312.745.6071 or RDAnalysis@chicagopolice.org.  Disclaimer: These crimes may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the Chicago Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The Chicago Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The Chicago Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of Chicago or Chicago Police Department web page. The user specifically acknowledges that the Chicago Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user.  The unauthorized use of the words \"Chicago Police Department,\" \"Chicago Police,\" or any colorable imitation of these words or the unauthorized use of the Chicago Police Department logo is unlawful. This web page does not, in any way, authorize such use. Data are updated daily. The dataset contains more than 65,000 records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. To access a list of Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) codes, go to http://data.cityofchicago.org/Public-Safety/Chicago-Police-Department-Illinois-Uniform-Crime-R/c7ck-438e<br></div>",
+      "type": "datalens",
+      "download_count": 18,
+      "parent_fxf": [
+        "6zsd-86xi",
+        "ijzp-q8t2"
+      ],
+      "createdAt": "2015-04-04T02:23:43.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 807575,
+        "page_views_total_log": 19.623238510916657,
+        "page_views_last_week": 11560,
+        "page_views_last_week_log": 13.496978572599476,
+        "page_views_last_month_log": 15.51966696383788,
+        "page_views_last_month": 46976
+      },
+      "columns_description": [],
+      "name": "Crimes - 2001 to present - Dashboard",
+      "attribution": "Chicago Police Department",
+      "columns_name": [],
+      "id": "5cd6-ry5g",
+      "columns_field_name": [],
+      "view_count": {
+        "page_views_total": 807575,
+        "page_views_total_log": 19.623238510916657,
+        "page_views_last_week": 11560,
+        "page_views_last_week_log": 13.496978572599476,
+        "page_views_last_month_log": 15.51966696383788,
+        "page_views_last_month": 46976
+      },
+      "updatedAt": "2017-09-15T13:03:45.000Z",
+      "columns_datatype": []
+    },
+    "classification": {
+      "categories": [
+        "public safety"
+      ],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.cityofchicago.org"
+    },
+    "permalink": "https://data.cityofchicago.org/view/5cd6-ry5g",
+    "link": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g",
+    "preview_image_url": "https://data.cityofchicago.org/views/5cd6-ry5g/files/a7ec8479-8f53-4d15-a0bc-791ddde8987d",
+    "owner": {
+      "id": "d2ga-t2mi",
+      "display_name": "Courtney Spurgeon"
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "QHP Landscape Individual Market Medical - For instructions on how to read and use this data, please view the documentation available under the \u2018About\u2019 tab on this page.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 34357,
+      "parent_fxf": null,
+      "createdAt": "2013-11-27T22:08:07.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 788688,
+        "page_views_total_log": 19.589096995703866,
+        "page_views_last_week_log": 10.011227255423254,
+        "page_views_last_week": 1031,
+        "page_views_last_month_log": 10.967946705812707,
+        "page_views_last_month": 2002
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "QHP Landscape Individual Market Medical",
+      "attribution": null,
+      "columns_name": [
+        "Generic Drugs - 87 percent",
+        "Specialist - 73 percent",
+        "Primary Care Physician - 73 percent",
+        "Drug Deductible - family - 73 percent",
+        "Medical Deductible - individual - 73 percent",
+        "Generic Drugs - standard",
+        "Medical Deductible - family - 73 percent",
+        "Drug Maximum Out of Pocket - individual - 73 percent",
+        "Medical Maximum Out Of Pocket - individual - 73 percent",
+        "73 Percent Actuarial Value Silver Plan Cost Sharing",
+        "Specialty Drugs - standard",
+        "Inpatient Physician - standard",
+        "Non-preferred Brand Drugs - standard",
+        "Preferred Brand Drugs - standard",
+        "Primary Care Physician  - standard",
+        "Specialist  - standard",
+        "Emergency Room  - standard",
+        "Inpatient Facility  - standard",
+        "Medical Maximum Out Of Pocket - individual - standard",
+        "Drug Maximum Out of Pocket - individual - standard",
+        "Medical Maximum Out of Pocket - family - standard",
+        "Drug Maximum Out of Pocket - Family  - standard",
+        "Medical Deductible - individual - standard",
+        "Drug Deductible - individual - standard",
+        "Medical Deductible -family - standard",
+        "Individual+3 or more children, Age 30",
+        "Individual+3 or more children, Age 40",
+        "Individual+3 or more children, Age 50",
+        "Medical Maximum Out Of Pocket -individual - 94 percent",
+        "Medical Deductible - individual - 94 percent",
+        "Specialty Drugs - 87 percent",
+        "Non-preferred Brand Drugs - 87 percent",
+        "Standard Plan Cost Sharing",
+        "Source",
+        "Plan Type",
+        "County",
+        "94 Percent Actuarial Value Silver Plan Cost Sharing",
+        "Drug Maximum Out of Pocket - individual - 94 percent",
+        "Primary Care Physician - 94 percent",
+        "Specialist - 94 percent",
+        "Individual+1 child, Age 21",
+        "Inpatient Facility  - 94 percent",
+        "Drug Maximum Out of Pocket - Family  - 94 percent",
+        "Premium Adult Individual Age 60",
+        "Premium Couple 30",
+        "Drug Maximum Out of Pocket - Family - 87 percent",
+        "Individual+2 children, Age 30",
+        "Individual+2 children, Age 40",
+        "Individual+2 children, Age 50",
+        "Individual+3 or more children, Age 21",
+        "Metal Level",
+        "Customer Service Phone Number Local",
+        "Premium Scenarios",
+        "Medical Deductible - family - 94 percent",
+        "Emergency Room - 73 percent",
+        "Generic Drugs - 73 percent",
+        "Drug Deductible - individual - 94 percent",
+        "Drug Deductible - family - standard",
+        "Drug Deductible - individual - 73 percent",
+        "Medical Maximum Out of Pocket - family - 73 percent",
+        "Drug Maximum Out of Pocket - Family - 73 percent",
+        "Non-preferred Brand Drugs - 94 percent",
+        "Premium Adult Individual Age 27",
+        "Couple+1 child, Age 50",
+        "Premium Couple 50",
+        "Premium Couple 40",
+        "Specialty Drugs - 94 percent",
+        "Couple+1 child, Age 40",
+        "Couple+1 child, Age 30",
+        "Couple+2 children, Age 21",
+        "Specialty Drugs - 73 percent",
+        "Drug Deductible - individual - 87 percent",
+        "Emergency Room - 87 percent",
+        "Premium Adult Individual Age 21",
+        "Premium Adult Individual Age 40",
+        "Premium Adult Individual Age 30",
+        "Inpatient Physician  - 94 percent",
+        "Generic Drugs - 94 percent",
+        "Preferred Brand Drugs - 94 percent",
+        "Medical Maximum Out of Pocket - family - 94 percent",
+        "Emergency Room - 94 percent",
+        "Adult Dental",
+        "Child Dental",
+        "Inpatient Facility - 73 percent",
+        "Inpatient Physician - 73 percent",
+        "Non-preferred Brand Drugs - 73 percent",
+        "Preferred Brand Drugs - 73 percent",
+        "Drug Deductible - family - 87 percent",
+        "Premium Adult Individual Age 50",
+        "Premium Couple 21  ",
+        "Customer Service Phone Number TTY",
+        "Rating Area",
+        "Child Only Offering",
+        "Plan Marketing Name",
+        "Summary of Benefits URL",
+        "Couple+1 child, Age 21",
+        "Premium Couple 60",
+        "Couple+3 or more Children, Age 30",
+        "Couple+3 or more Children, Age 40",
+        "Couple+2 children, Age 30",
+        "Couple+2 children, Age 40",
+        "Couple+2 children, Age 50",
+        "Individual+1 child, Age 30",
+        "Individual+1 child, Age 40",
+        "Couple+3 or more Children, Age 50",
+        "Premium Child",
+        "Drug Maximum Out of Pocket - individual - 87 percent",
+        "Medical Maximum Out Of Pocket - individual - 87 percent",
+        "Medical Maximum Out of Pocket - family - 87 percent",
+        "Primary Care Physician - 87 percent",
+        "Specialist - 87 percent",
+        "Couple+3 or more Children, Age 21",
+        "87 Percent Actuarial Value Silver Plan Cost Sharing",
+        "Medical Deductible - family - 87 percent",
+        "Individual+1 child, Age 50",
+        "Individual+2 children, Age 21",
+        "Plan ID - Standard Component",
+        "Issuer Name",
+        "State",
+        "Customer Service Phone Number Toll Free",
+        "Medical Deductible - individual - 87 percent",
+        "Drug Formulary URL",
+        "Network URL",
+        "Plan Brochure URL",
+        "Drug Deductible - family - 94 percent",
+        "Inpatient Facility - 87 percent",
+        "Inpatient Physician - 87 percent",
+        "Preferred Brand Drugs - 87 percent"
+      ],
+      "columns_field_name": [
+        "generic_drugs_87_percent",
+        "specialist_73_percent",
+        "primary_care_physician_73_percent",
+        "drug_deductible_family_73_percent",
+        "medical_deductible_individual_73_percent",
+        "generic_drugs_standard",
+        "medical_deductible_family_73_percent",
+        "drug_maximum_out_of_pocket_individual_73_percent",
+        "medical_maximum_out_of_pocket_individual_73_percent",
+        "_73_percent_actuarial_value_silver_plan_cost_sharing",
+        "specialty_drugs_standard",
+        "inpatient_physician_standard",
+        "non_preferred_brand_drugs_standard",
+        "preferred_brand_drugs_standard",
+        "primary_care_physician_standard",
+        "specialist_standard",
+        "emergency_room_standard",
+        "inpatient_facility_standard",
+        "medical_maximum_out_of_pocket_individual_standard",
+        "drug_maximum_out_of_pocket_individual_standard",
+        "medical_maximum_out_of_pocket_family_standard",
+        "drug_maximum_out_of_pocket_family_standard",
+        "medical_deductible_individual_standard",
+        "drug_deductible_individual_standard",
+        "medical_deductible_family_standard",
+        "individual_3_or_more_children_age_30",
+        "individual_3_or_more_children_age_40",
+        "individual_3_or_more_children_age_50",
+        "medical_maximum_out_of_pocket_individual_94_percent",
+        "medical_deductible_individual_94_percent",
+        "specialty_drugs_87_percent",
+        "non_preferred_brand_drugs_87_percent",
+        "standard_plan_cost_sharing",
+        "source",
+        "plan_type",
+        "county",
+        "_94_percent_actuarial_value_silver_plan_cost_sharing",
+        "drug_maximum_out_of_pocket_individual_94_percent",
+        "primary_care_physician_94_percent",
+        "specialist_94_percent",
+        "individual_1_child_age_21",
+        "inpatient_facility_94_percent",
+        "drug_maximum_out_of_pocket_family_94_percent",
+        "premium_adult_individual_age_60",
+        "premium_couple_30",
+        "drug_maximum_out_of_pocket_family_87_percent",
+        "individual_2_children_age_30",
+        "individual_2_children_age_40",
+        "individual_2_children_age_50",
+        "individual_3_or_more_children_age_21",
+        "metal_level",
+        "customer_service_phone_number_local",
+        "premium_scenarios",
+        "medical_deductible_family_94_percent",
+        "emergency_room_73_percent",
+        "generic_drugs_73_percent",
+        "drug_deductible_individual_94_percent",
+        "drug_deductible_family_standard",
+        "drug_deductible_individual_73_percent",
+        "medical_maximum_out_of_pocket_family_73_percent",
+        "drug_maximum_out_of_pocket_family_73_percent",
+        "non_preferred_brand_drugs_94_percent",
+        "premium_adult_individual_age_27",
+        "couple_1_child_age_50",
+        "premium_couple_50",
+        "premium_couple_40",
+        "specialty_drugs_94_percent",
+        "couple_1_child_age_40",
+        "couple_1_child_age_30",
+        "couple_2_children_age_21",
+        "specialty_drugs_73_percent",
+        "drug_deductible_individual_87_percent",
+        "emergency_room_87_percent",
+        "premium_adult_individual_age_21",
+        "premium_adult_individual_age_40",
+        "premium_adult_individual_age_30",
+        "inpatient_physician_94_percent",
+        "generic_drugs_94_percent",
+        "preferred_brand_drugs_94_percent",
+        "medical_maximum_out_of_pocket_family_94_percent",
+        "emergency_room_94_percent",
+        "adult_dental",
+        "child_dental",
+        "inpatient_facility_73_percent",
+        "inpatient_physician_73_percent",
+        "non_preferred_brand_drugs_73_percent",
+        "preferred_brand_drugs_73_percent",
+        "drug_deductible_family_87_percent",
+        "premium_adult_individual_age_50",
+        "premium_couple_21",
+        "customer_service_phone_number_tty",
+        "rating_area",
+        "child_only_offering",
+        "plan_marketing_name",
+        "summary_of_benefits_url",
+        "couple_1_child_age_21",
+        "premium_couple_60",
+        "couple_3_or_more_children_age_30",
+        "couple_3_or_more_children_age_40",
+        "couple_2_children_age_30",
+        "couple_2_children_age_40",
+        "couple_2_children_age_50",
+        "individual_1_child_age_30",
+        "individual_1_child_age_40",
+        "couple_3_or_more_children_age_50",
+        "premium_child",
+        "drug_maximum_out_of_pocket_individual_87_percent",
+        "medical_maximum_out_of_pocket_individual_87_percent",
+        "medical_maximum_out_of_pocket_family_87_percent",
+        "primary_care_physician_87_percent",
+        "specialist_87_percent",
+        "couple_3_or_more_children_age_21",
+        "_87_percent_actuarial_value_silver_plan_cost_sharing",
+        "medical_deductible_family_87_percent",
+        "individual_1_child_age_50",
+        "individual_2_children_age_21",
+        "plan_id_standard_component",
+        "issuer_name",
+        "state",
+        "customer_service_phone_number_toll_free",
+        "medical_deductible_individual_87_percent",
+        "drug_formulary_url",
+        "network_url",
+        "plan_brochure_url",
+        "drug_deductible_family_94_percent",
+        "inpatient_facility_87_percent",
+        "inpatient_physician_87_percent",
+        "preferred_brand_drugs_87_percent"
+      ],
+      "id": "b8in-sz6k",
+      "view_count": {
+        "page_views_total": 788688,
+        "page_views_total_log": 19.589096995703866,
+        "page_views_last_week_log": 10.011227255423254,
+        "page_views_last_week": 1031,
+        "page_views_last_month_log": 10.967946705812707,
+        "page_views_last_month": 2002
+      },
+      "updatedAt": "2014-08-21T00:43:11.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "money",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "money",
+        "text",
+        "text",
+        "money",
+        "money",
+        "text",
+        "money",
+        "money",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "money",
+        "money",
+        "money",
+        "money",
+        "text",
+        "money",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "money",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "url",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "money",
+        "text",
+        "text",
+        "money",
+        "money",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "url",
+        "url",
+        "url",
+        "text",
+        "text",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "health"
+      ],
+      "tags": [],
+      "domain_tags": [],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.healthcare.gov"
+    },
+    "permalink": "https://data.healthcare.gov/d/b8in-sz6k",
+    "link": "https://data.healthcare.gov/dataset/QHP-Landscape-Individual-Market-Medical/b8in-sz6k",
+    "owner": {
+      "id": "twvv-2d8u",
+      "display_name": "chris.thierer"
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "One record for each emergency on which the Fire Department sent apparatus and personnel. More detail is available in the Apparatus Response and Personnel Response data sets.",
+      "type": "filter",
+      "obe_fxf": null,
+      "download_count": 93,
+      "parent_fxf": [
+        "f362-6fup",
+        "nfyx-djar"
+      ],
+      "createdAt": "2015-11-18T19:08:16.000Z",
+      "provenance": "community",
+      "page_views": {
+        "page_views_total": 761869,
+        "page_views_total_log": 19.53918532208254,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.321928094887362,
+        "page_views_last_month": 4
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "2014 Fire Responses",
+      "attribution": null,
+      "columns_name": [
+        "Fire_Service_Fatalities",
+        "Incident_Type_Code",
+        "Citizen_Injuries",
+        "Citizen_Fatalities",
+        "Emergency_Medical_Service_Provided",
+        "Incident_Type",
+        "Number_Ambulances",
+        "Action_Taken",
+        "Incident_Number",
+        "FIrst_Due_Station",
+        "Number_Engines",
+        "Date_Time",
+        "Action_Taken_Code",
+        "Number_Other",
+        "Fire_Service_Injuries",
+        "Property_Use",
+        "Zip",
+        "Number_Other_Personnel",
+        "Number_Medical_Personnel",
+        "City",
+        "Number_Fire_Personnel",
+        "Property_Use_Code",
+        "State"
+      ],
+      "columns_field_name": [
+        "fire_service_fatalities",
+        "incident_type_code",
+        "citizen_injuries",
+        "citizen_fatalities",
+        "emergency_medical_service_provided",
+        "incident_type",
+        "number_ambulances",
+        "action_taken",
+        "incident_number",
+        "first_due_station",
+        "number_engines",
+        "date_time",
+        "action_taken_code",
+        "number_other",
+        "fire_service_injuries",
+        "property_use",
+        "zip",
+        "number_other_personnel",
+        "number_medical_personnel",
+        "city",
+        "number_fire_personnel",
+        "property_use_code",
+        "state"
+      ],
+      "id": "r5ip-vqhr",
+      "view_count": {
+        "page_views_total": 761869,
+        "page_views_total_log": 19.53918532208254,
+        "page_views_last_week_log": 0.0,
+        "page_views_last_week": 0,
+        "page_views_last_month_log": 2.321928094887362,
+        "page_views_last_month": 4
+      },
+      "updatedAt": "2015-11-18T19:08:16.000Z",
+      "columns_datatype": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "text",
+        "number",
+        "text",
+        "number",
+        "number",
+        "number",
+        "calendar_date",
+        "number",
+        "number",
+        "number",
+        "text",
+        "number",
+        "number",
+        "number",
+        "text",
+        "number",
+        "number",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "ems",
+        "fire"
+      ],
+      "domain_metadata": [
+        {
+          "value": "Howard County Government",
+          "key": "Additional-Metadata_Publisher"
+        },
+        {
+          "value": "2012-2014",
+          "key": "Additional-Metadata_Coverage"
+        },
+        {
+          "value": "Howard County Department of FIre and Rescue Services",
+          "key": "Additional-Metadata_Contributor"
+        },
+        {
+          "value": "Continuous",
+          "key": "Additional-Metadata_Frequency"
+        }
+      ]
+    },
+    "metadata": {
+      "domain": "opendata.howardcountymd.gov"
+    },
+    "permalink": "https://opendata.howardcountymd.gov/d/r5ip-vqhr",
+    "link": "https://opendata.howardcountymd.gov/Public-Safety/2014-Fire-Responses/r5ip-vqhr",
+    "owner": {
+      "id": "5dy4-rh39",
+      "display_name": "DCGoodwin"
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "All Permits from Cincinnati Building Department from 2012",
+      "type": "filter",
+      "obe_fxf": null,
+      "download_count": 127,
+      "parent_fxf": [
+        "uhjb-xac9",
+        "emnx-rw6d"
+      ],
+      "createdAt": "2015-06-30T18:32:05.000Z",
+      "provenance": "community",
+      "page_views": {
+        "page_views_total": 680414,
+        "page_views_total_log": 19.376055420533756,
+        "page_views_last_week_log": 2.321928094887362,
+        "page_views_last_week": 4,
+        "page_views_last_month_log": 19.374982141337977,
+        "page_views_last_month": 679908
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "1/2014-3/2014",
+      "attribution": "City of Cincinnati",
+      "columns_name": [
+        "PERMITCLASS",
+        "ORIGINALCITY",
+        "COMPLETEDDATE",
+        "FEE",
+        "ISSUEDDATE",
+        "APPLIEDDATE",
+        "DESCRIPTION",
+        "EXPIRESDATE",
+        "ESTPROJECTCOSTDEC",
+        "PROPOSEDUSE",
+        "UNITS",
+        "PIN",
+        "ESTPROJECTCOSTTEXT",
+        "PERMITNUM",
+        "JURISDICTION",
+        "ORIGINALSTATE",
+        "COISSUEDDATE",
+        "ORIGINALADDRESS1",
+        "STATUSCURRENTMAPPED",
+        "TOTALSQFT",
+        "PERMITCLASSMAPPED",
+        "ORIGINALZIP",
+        "PERMITTYPE",
+        "COMPANYNAME",
+        "STATUSCURRENT",
+        "PERMITTYPEMAPPED",
+        "WORKCLASSMAPPED",
+        "WORKCLASS"
+      ],
+      "columns_field_name": [
+        "permitclass",
+        "originalcity",
+        "completeddate",
+        "fee",
+        "issueddate",
+        "applieddate",
+        "description",
+        "expiresdate",
+        "estprojectcostdec",
+        "proposeduse",
+        "units",
+        "pin",
+        "estprojectcosttext",
+        "permitnum",
+        "jurisdiction",
+        "originalstate",
+        "coissueddate",
+        "originaladdress1",
+        "statuscurrentmapped",
+        "totalsqft",
+        "permitclassmapped",
+        "originalzip",
+        "permittype",
+        "companyname",
+        "statuscurrent",
+        "permittypemapped",
+        "workclassmapped",
+        "workclass"
+      ],
+      "id": "q28h-gqrf",
+      "view_count": {
+        "page_views_total": 680414,
+        "page_views_total_log": 19.376055420533756,
+        "page_views_last_week_log": 2.321928094887362,
+        "page_views_last_week": 4,
+        "page_views_last_month_log": 19.374982141337977,
+        "page_views_last_month": 679908
+      },
+      "updatedAt": "2017-09-15T12:47:26.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "calendar_date",
+        "money",
+        "calendar_date",
+        "calendar_date",
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "calendar_date",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [
+        "infrastructure",
+        "housing & development"
+      ],
+      "tags": [],
+      "domain_category": "Thriving Healthy Neighborhoods",
+      "domain_tags": [
+        "permits",
+        "planning",
+        "inspections",
+        "buildings",
+        "licenses"
+      ],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.cincinnati-oh.gov",
+      "license": "Public Domain"
+    },
+    "permalink": "https://data.cincinnati-oh.gov/d/q28h-gqrf",
+    "link": "https://data.cincinnati-oh.gov/Thriving-Healthy-Neighborhoods/1-2014-3-2014/q28h-gqrf",
+    "owner": {
+      "id": "rgdu-hae4",
+      "display_name": "Carly"
+    }
+  },
+  {
+    "resource": {
+      "nbe_fxf": null,
+      "description": "List of 'Severe Weather Alert Systems' throughout Missouri provided by local governments, media outlets, and other sources.",
+      "type": "dataset",
+      "obe_fxf": null,
+      "download_count": 2321,
+      "parent_fxf": null,
+      "createdAt": "2012-03-01T19:00:24.000Z",
+      "provenance": "official",
+      "page_views": {
+        "page_views_total": 652540,
+        "page_views_total_log": 19.315709025373565,
+        "page_views_last_week_log": 8.179909090014934,
+        "page_views_last_week": 289,
+        "page_views_last_month_log": 9.312882955284357,
+        "page_views_last_month": 635
+      },
+      "columns_description": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "name": "Local Severe Weather Warning Systems in Missouri",
+      "attribution": "Department of Public Safety",
+      "columns_name": [
+        "User Fees",
+        "County",
+        "Web Site",
+        "Notifications"
+      ],
+      "columns_field_name": [
+        "user_fees",
+        "county",
+        "web_site",
+        "notifications"
+      ],
+      "id": "n59h-ggai",
+      "view_count": {
+        "page_views_total": 652540,
+        "page_views_total_log": 19.315709025373565,
+        "page_views_last_week_log": 8.179909090014934,
+        "page_views_last_week": 289,
+        "page_views_last_month_log": 9.312882955284357,
+        "page_views_last_month": 635
+      },
+      "updatedAt": "2016-03-21T18:11:33.000Z",
+      "columns_datatype": [
+        "text",
+        "text",
+        "url",
+        "text"
+      ]
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Public Safety",
+      "domain_tags": [
+        "public safety",
+        "notifications",
+        "alerts",
+        "weather"
+      ],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.mo.gov",
+      "license": "Public Domain"
+    },
+    "permalink": "https://data.mo.gov/d/n59h-ggai",
+    "link": "https://data.mo.gov/Public-Safety/Local-Severe-Weather-Warning-Systems-in-Missouri/n59h-ggai",
+    "owner": {
+      "id": "s7tu-4ex9",
+      "display_name": "hdolce"
+    }
+  },
+  {
+    "resource": {
+      "name": "Missouri Beer, Wine and Liquor Wholesaler List with Zip Code",
+      "id": "fkt2-8smh",
+      "parent_fxf": null,
+      "description": "Listing of current Missouri beer, wine and liquor wholesalers with their associated zip codes.  This listing is updated daily.",
+      "attribution": "Missouri Division of Alcohol and Tobacco Control",
+      "type": "dataset",
+      "updatedAt": "2017-09-15T13:05:11.000Z",
+      "createdAt": "2012-08-07T14:42:57.000Z",
+      "view_count": {
+        "page_views_last_week": 74,
+        "page_views_last_month": 312,
+        "page_views_total": 619715,
+        "page_views_last_week_log": 6.22881869049588,
+        "page_views_last_month_log": 8.290018846932618,
+        "page_views_total_log": 19.24124769112889
+      },
+      "page_views": {
+        "page_views_last_week": 74,
+        "page_views_last_month": 312,
+        "page_views_total": 619715,
+        "page_views_last_week_log": 6.22881869049588,
+        "page_views_last_month_log": 8.290018846932618,
+        "page_views_total_log": 19.24124769112889
+      },
+      "columns_name": [
+        "Zip Code",
+        "License Number",
+        "License Type",
+        "City",
+        "Business Name"
+      ],
+      "columns_field_name": [
+        "zip_code",
+        "license_number",
+        "license_type",
+        "city",
+        "business_name"
+      ],
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "download_count": 2589,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [],
+      "tags": [],
+      "domain_category": "Regulatory",
+      "domain_tags": [
+        "tax",
+        "excise",
+        "zip code",
+        "solicitor",
+        "wholesaler",
+        "wine",
+        "liquor",
+        "missouri"
+      ],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.mo.gov"
+    },
+    "permalink": "https://data.mo.gov/d/fkt2-8smh",
+    "link": "https://data.mo.gov/Regulatory/Missouri-Beer-Wine-and-Liquor-Wholesaler-List-with/fkt2-8smh",
+    "owner": {
+      "id": "gytm-8bsj",
+      "display_name": "Rob Gourley"
+    }
+  },
+  {
+    "resource": {
+      "name": "Missouri Beer, Wine and Liquor Solicitor List with Zip Code",
+      "id": "mmn5-wy78",
+      "parent_fxf": null,
+      "description": "Listing of all current beer, wine and liquor solicitors and their associated zip code.  This is updated daily",
+      "attribution": "Missouri Division of Alcohol and Tobacco Control",
+      "type": "dataset",
+      "updatedAt": "2017-09-15T13:15:11.000Z",
+      "createdAt": "2012-08-07T14:31:25.000Z",
+      "view_count": {
+        "page_views_last_week": 61,
+        "page_views_last_month": 248,
+        "page_views_total": 611893,
+        "page_views_last_week_log": 5.954196310386876,
+        "page_views_last_month_log": 7.960001932068081,
+        "page_views_total_log": 19.222922227159597
+      },
+      "page_views": {
+        "page_views_last_week": 61,
+        "page_views_last_month": 248,
+        "page_views_total": 611893,
+        "page_views_last_week_log": 5.954196310386876,
+        "page_views_last_month_log": 7.960001932068081,
+        "page_views_total_log": 19.222922227159597
+      },
+      "columns_name": [
+        "City",
+        "License Type",
+        "License Number",
+        "Zip Code",
+        "Business Name"
+      ],
+      "columns_field_name": [
+        "city",
+        "license_type",
+        "license_number",
+        "zip_code",
+        "business_name"
+      ],
+      "columns_datatype": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "columns_description": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "download_count": 1958,
+      "provenance": "official"
+    },
+    "classification": {
+      "categories": [
+        "environment"
+      ],
+      "tags": [],
+      "domain_category": "Regulatory",
+      "domain_tags": [
+        "zip code",
+        "listing",
+        "solicitor",
+        "wholesaler",
+        "beer",
+        "missouri"
+      ],
+      "domain_metadata": []
+    },
+    "metadata": {
+      "domain": "data.mo.gov"
+    },
+    "permalink": "https://data.mo.gov/d/mmn5-wy78",
+    "link": "https://data.mo.gov/Regulatory/Missouri-Beer-Wine-and-Liquor-Solicitor-List-with-/mmn5-wy78",
+    "owner": {
+      "id": "gytm-8bsj",
+      "display_name": "Rob Gourley"
+    }
+  }
+]
